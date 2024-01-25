@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(14, 14, 14);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.green{
+    background-color:  yellow;
+  }
+  .red{
+    background-color: green;
+  }
+  .blue{
+    background-color: red;
+  }
+  .yellow{
+    background-color: blue;
+  }
+  .row{
+    display: flex;
+  }
+  .board{
+    width: fit-content;
+    border: none;
+    border-radius: 5px;
+    margin: 10px auto;
+
+  }
+  .white-box{
+    background-color: white;
+      width: 150px;
+      height: 150px;
+      margin: 20% auto;
+      border: 1px solid black;
+  }
+  .red-box{
+    background-color:green;
+      width: 250px;
+      height: 250px;
+      border: 1px solid black;
+  }
+  .green-box{
+      background-color:yellow ;
+      width: 250px;
+      height: 250px;
+      border: 1px solid black;
+  }
+  .blue-box{
+    background-color:  red;
+      width: 250px;
+      height: 250px;
+      border:1px solid black;
+  }
+  .yellow-box{
+    background-color: blue;
+      width: 250px;
+      height: 250px;
+      border:1px solid #000;
+  }
+  .white-box .circle{
+    border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      float: left;
+      margin: 16px;
+      border: none;
+  }
+  .cell{
+      width: 40px;
+      height: 40px;
+      border: 1px solid #000;
+  }
+  .destination{
+    border-top: 63px solid yellow  ;
+      border-left: 63px solid  green;
+      border-right: 63px solid blue;
+      border-bottom: 63px solid #FF0000;
+  }
+
+
+.kkal{
+    background-color: white;
+   text-align: center;
+}
